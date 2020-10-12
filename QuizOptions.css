@@ -1,0 +1,35 @@
+.Content{
+  width: 60%;
+  border: 5px solid #AFEEEE;
+  padding: 10px;
+	margin: auto;
+  background-color: #E0FFFF;
+  font-family:sans-serif;
+}
+
+body{
+  background-color: #CD5C5C;
+  font-weight: bold;
+  text-align: center;
+}
+
+.quizzes{
+  width: 90%;
+  border: 5px solid #7B68EE;
+  padding: 10px;
+  margin: auto;
+  background-color: #E0FFFF;
+  font-family:sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: blue;
+}
+
+button{
+  text-align: center;
+  border-radius: 10px;
+  font-family: sans-serif;
+  background-color: #808080;
+}

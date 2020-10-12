@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz Level 3</title>
+    <link rel="stylesheet" href="QuizLevel3.css">
+  </head>
+  <body>
+    <div class="main">
+      <h1>Welcome to Quiz Level 3</h1>
+      <p>This quiz will test concept of functions <br>
+      </p>
+      When you are ready, click the button.<br><br>
+      <button type="button" name="QuizButtton3" onclick="countdown(1)">Start!</button><br>
+
+      <div class="QuizLevel3" id="mainBlock">
+        <p id="demo"> </p>
+        <form class="Quiz" name="fname" method="post">
+
+        How many parameters can be accepted by the "alert" function?<br>
+        <input type="radio" name="q1" id="a" value="0"><b>3</b>
+        <input type="radio" name="q1" id="b1" value="0"><b>1</b>
+        <input type="radio" name="q1" id="a" value="1"><b>2</b><br><br>
+
+        Where is the "return" statement placed?<br>
+        <input type="radio" name="q2" id="a" value="0"><b>Outside the curly braces</b>
+        <input type="radio" name="q2" id="a" value="1"><b>At the end of the function description</b>
+        <input type="radio" name="q2" id="b3" value="0"><b>At the beginning of the function description</b><br><br>
+
+        What do you need to do to create a parameter??<br>
+        <input type="radio" name="q3" id="b2" value="1"><b>Write a variable name in the parentheses</b>
+        <input type="radio" name="q3" id="a" value="0"><b>Use the "var" keyword</b>
+        <input type="radio" name="q3" id="a" value="0"><b>Use the 'param' keyword</b><br><br>
+
+        What character is used to separate parameters from each other?<br>
+        <input type="radio" name="q4" id="a" value="0"><b>;</b>
+        <input type="radio" name="q4" id="a" value="0"><b>&</b>
+        <input type="radio" name="q4" id="a" value="1"><b>,</b> <br><br>
+
+        How many times can the function be executed inside a web page?<br>
+        <input type="radio" name="q5" id="a" value="0"><b>1024</b>
+        <input type="radio" name="q5" id="a" value="1"><b>Infinite</b>
+        <input type="radio" name="q5" id="b3" value="0"><b>2</b><br><br>
+
+        Fill in the to obtain the name of the user and alert it to the screen:<br>
+        var name = ______("Enter your name:"); <br>
+        alert(name);<br>
+        <input type="text" name="q6" id="a" placeholder="Enter Answer here."> <br><br> <!-- 6 -->
+
+
+        <button type="button" name="button" onclick="Submit()">Submit</button>
+
+        </form>
+      </div>
+    </div>
+    <script src="QuizLevel3.js" charset="utf-8"></script>
+  </body>
+</html>

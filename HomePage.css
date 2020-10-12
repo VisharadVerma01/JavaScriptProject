@@ -1,0 +1,36 @@
+body{
+  background-color: #CD5C5C;
+}
+
+.Content{
+  width: 60%;
+  border: 5px solid #AFEEEE;
+  padding: 10px;
+	margin: auto;
+  background-color: #E0FFFF;
+  font-family:sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+button{
+  text-align: center;
+  border-radius: 10px;
+  font-family: sans-serif;
+  padding: 10px 30px;
+  margin: auto;
+  display: block; /* Elements are treated as a block */
+  background-color: #808080;
+}
+
+a{
+  color:black;
+  text-decoration: none; /* Removes the Underline */
+}

@@ -1,0 +1,41 @@
+body{
+  background-color: #CD5C5C;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main{
+  width: 60%;
+  border: 5px solid #AFEEEE;
+  padding: 10px;
+	margin: auto;
+  background-color: #E0FFFF;
+  font-family:sans-serif;
+}
+
+.QuizLevel1{
+  width: 90%;
+  border: 5px solid #AFEEEE;
+  padding: 10px;
+	margin: auto;
+  background-color: #E0FFFF;
+  font-family:sans-serif;
+  display: none;
+  text-align: left;
+}
+
+button{
+  text-align: center;
+  border-radius: 10px;
+  font-family: sans-serif;
+  margin: auto;
+  display: block;
+  background-color: #808080;
+  font-weight: bold;
+}
+
+#demo{
+  font-size: 20px;
+  font-family: fantasy;
+  text-align: center;
+}

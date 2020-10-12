@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz Level 1</title>
+    <link rel="stylesheet" href="QuizLevel1.css">
+  </head>
+  <body>
+    <div class="main">
+      <h1>Welcome to Quiz Level 1</h1>
+      <p>This quiz will test concept of Variables, <br>
+         Datatypes and Operators</p>
+      When you are ready, click the button.<br><br>
+      <button type="button" name="QuizButtton1" onclick="countdown(1)">Start!</button><br>
+
+      <div class="QuizLevel1" id="mainBlock">
+        <p id="demo"> </p>
+        <form class="Quiz" name="fname" method="post">
+        Which keyword is used to tell JavaScript that we're going to work with a variable?<br>
+        <input type="radio" name="q1" id="a" value="0"><b>int</b>
+        <input type="radio" name="q1" id="b1" value="1"><b>var</b>
+        <input type="radio" name="q1" id="a" value="0"><b>variable</b><br><br>
+
+        What two values does the Boolean data type accept?<br>
+        <input type="checkbox" name="q2" id="b2" value="0.5"><b>true</b>
+        <input type="checkbox" name="q2" id="a" value="0"><b>right</b>
+        <input type="checkbox" name="q2" id="a" value="0.5"><b>false</b><br><br>
+
+        What character is used as the multiplication sign?<br>
+        <input type="radio" name="q3" id="a" value="0"><b>x</b>
+        <input type="radio" name="q3" id="a" value="0"><b>&</b>
+        <input type="radio" name="q3" id="b3" value="1"><b>*</b><br><br>
+
+        Logical NOT returns true, if:<br>
+        <input type="radio" name="q4" id="a" value="1"><b>The Operand is True</b>
+        <input type="radio" name="q4" id="a" value="0"><b>The Operand is False</b> <br><br>
+
+        Calculate and type the resulting value of the following expression:<br>
+        var result = 20;<br>
+        result *=5; <br>
+        <input type="text" name="q5" id="a" placeholder="Enter Answer here."> <br><br>
+
+        What is the output of the following code:<br>
+        var x = "50";<br>
+        var y = "100";<br>
+        document.write(x+y);<br>
+        <input type="radio" name="q6" id="a" value="0"><b>150</b>
+        <input type="radio" name="q6" id="a" value="0"><b>5000</b>
+        <input type="radio" name="q6" id="b3" value="1"><b>50100</b><br><br>
+
+        <button type="button" name="button" onclick="Submit()">Submit</button>
+
+        </form>
+      </div>
+    </div>
+    <script src="QuizLevel1.js" charset="utf-8"></script>
+  </body>
+</html>
